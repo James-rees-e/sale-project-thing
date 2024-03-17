@@ -1,8 +1,7 @@
 .f{
     width: 277px;
     height: 322px;
-    background-color: black;
-    opacity: 70%;
+    background-color: grey;
     color: white;
     text-align: center;
     margin: auto;
@@ -10,6 +9,8 @@
     margin-left: 199px;
     padding: 12px;
 }
-button{
-    color: red;
+.btn-primary{
+    background-color: red;
+    outline-color: red;
+    opacity: 100%;
 }
