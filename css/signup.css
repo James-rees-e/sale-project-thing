@@ -1,16 +1,17 @@
 .f{
     width: 277px;
     height: 322px;
-    background-color: grey;
+    background-color:   black;
     color: white;
     text-align: center;
     margin: auto;
+    opacity: 80%;
     margin-top: 87px;
     margin-left: 199px;
     padding: 12px;
 }
 .btn-primary{
     background-color: red;
-    outline-color: red;
+    border: 2px solid red;
     opacity: 100%;
 }
