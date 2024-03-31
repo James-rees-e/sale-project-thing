@@ -8,18 +8,18 @@ body {
 
 .signup-outer {
     background-image: url(https://shopgamevalorant.com/assets/backend/bg-frmdk.png);
-    background-size: 620px 560px;
+    background-size: 620px 470px;
     width: 620px;
-    height: 466px;
+    height: 470px;
     color: white;
     text-align: center;
     display: inline-block;
     opacity: 85%;
-    margin-left: 100px;
+    margin-left: 84px;
 }
 
 .signup-outer h1 {
-    margin-top: 7px;
+    margin-top: 1px;
 }
 
 .but {
@@ -57,16 +57,17 @@ body {
 
 .uhhh {
     background-image: url(https://shopgamevalorant.com/assets/backend/bg-frmdk.png);
-    background-size: 620px 560px;
+    background-size: 620px 470px;
     width: 620px;
-    height: 466px;
+    height: 470px;
     color: white;
     text-align: center;
     display: inline-block;
     opacity: 85%;
     margin-left: 30px;
 }
-.info input{
+
+.info input {
     margin-top: 1px;
     display: flex;
     flex-direction: column;
@@ -80,7 +81,7 @@ body {
 }
 
 
-.info p{
-text-align: start  ;
-margin:  5px 60px;
+.info p {
+    text-align: start;
+    margin: 5px 78px;
 }
