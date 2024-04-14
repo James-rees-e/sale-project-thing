@@ -1,97 +1,137 @@
 body {
-    background-image: url(https://shopgamevalorant.com/assets/backend/bgdk.png);
-  }
-  
-  .signin-outer {
-    width: 580px;
-    height: 474px;
-    background-image: url(https://shopgamevalorant.com/assets/backend/bg-frmdk.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .signin-outer h1 {
-    font-size: 40px;
-    color: #fff;
-  }
-  .signin-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-    color: #fff;
-  }
-  .info {
-    display: block;
-    width: 95%;
-    padding: 20px;
-    margin: auto;
-  }
-  .email {
-    display: block;
-    margin: auto;
-    width: 90%;
-    padding: 20px;
-  }
-  label {
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-    width: 90%;
-  }
-  
-  #signin-btn {
-    width: 177px;
-    height: 56px;
-    border: none;
-    color: #fff;
-    background-image: url(https://shopgamevalorant.com/assets/backend/btn-dk.png);
-    transform: scale(1);
-    transition: all 0.3s; 
-  }
-  #signin-btn:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    transform: scale(1.1);
-  }
-
-.other-box {
-    justify-content: space-between;
-    background-image: url(https://shopgamevalorant.com/assets/backend/bg-frmdk.png);
-    background-repeat: no-repeat;
-    display: flex;
-    width: 580px;
-    height: 474px;
-    gap: 20px;
-    flex-direction: column;
-    align-items: center;
-  
-
-    
-}   
-
-.other-box h1{
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
-    
-}
-.valorant-video{
-    margin-bottom: 50px;
-}
-.signin-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    gap: 40px;
-}
-.navbar{
-    background-color: #003034 !important;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.bar {
+  background-color: black;
+  width: 100%;
+  height: 107px;
+}
+
+.big {
+  display: flex;
+  flex-direction: row;
+}
+
+.big2 {
+
+  display: flex;
+  flex-direction: row;
+}
+
+.eee {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://shopgamevalorant.com/assets/backend/bgdk.png);
+  background-size: 100%;
+  width: 100%;
+}
+
+
+
+.signin-outer {
+  background-image: url(https://shopgamevalorant.com/assets/backend/bg-frmdk.png);
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  opacity: 85%;
+  padding: 0px 24px 24px 24px;
+  border-radius: 2px;
+}
+
+.signin-outer h1 {
+  margin-top: 1px;
+}
+
+form {
+  height: 100%;
+}
+
+.but {
+  background-image: url(https://shopgamevalorant.com/assets/backend/btn-dk.png);
+  background-color: transparent;
+  border: none;
+  background-size: 100% 100%;
+  width: 23%;
+  padding: 15px;
+  color: white;
+  margin-bottom: 62px;
+}
+
+
+.but:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://shopgamevalorant.com/assets/backend/btn-dk.png);
+  background-color: transparent;
+  border: none;
+  background-size: 100% 100%;
+  width: 25%;
+  color: white;
+}
+
+
+.help{
+  display: flex;
+  gap: 4px;
+}
+
+.signin-outer iframe {
+  width: 90%;
+  height: 90%;
+  padding-top: 100px;
+}
+
+.info{
+  text-align: start;
+}
+
+.info input {
+  border: none;
+  width: 100%;
+  padding: 15px 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+
+
+.groupsomething {
+  width: 100%;
+  height: 90%;
+}
+
+.groupsomething img {
+  width: 100%;
+  height: 100%;
+}
+
+.groupsomething2 {
+  width: 100%;
+  height: 90%;
+
+}
+
+.groupsomething2 img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.cred {
+  width: 100%;
+  height: 877px;
+  background-color: red;
+  display: block;
+  background-image: url(https://shopgamevalorant.com/assets/backend/bgf.png);
+  background-size: 100% 877px;
+}
+
+.row>div {
+  margin-bottom: 16px;
+}

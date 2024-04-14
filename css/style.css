@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar {
+    background-color: #302f2d;
+    width: 100%;
+    height: 107px;
+}
+.big{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-image: url(	https://shopgamevalorant.com/assets/backend/3037928.jpg);
+    background-size: 100%;
+}
+
+.vid{
+    width: 399px;
+    height: 363px;
+    background-color: red;
+}
+
+.slide{
+    width: 799px;
+    height: 363px;
+    background-color: blue;
+}
+
+.backg{
+    background-image: url(https://shopgamevalorant.com/assets/backend/bgsp.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+._titledm {
+    font: 32px 'Anton-Regular';
+    line-height: 48px;
+    color: #FF4655;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+}
+
+._titledm:before {
+    content: "";
+    width: 190px;
+    height: 4px;
+    background: #FF4655;
+    position: absolute;
+    top: calc(50% - 2px);
+    right: 100%;
+}
+
+._titledm:after {
+    content: "";
+    width: 190px;
+    height: 4px;
+    background: #FF4655;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 100%;
+}
+
+.select{
+    border: 1px #003034 solid !important;
+    color: white !important;
+    background-color: #003034 !important;
+    width: 300px !important;
+}
+
+.seeA a{
+    font: 30px 'Anton-Regular';
+    font-weight: bold;
+    color: #003034;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 12px;
+}
