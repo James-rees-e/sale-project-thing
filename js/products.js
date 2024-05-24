@@ -1,9 +1,6 @@
 import {
-  addDoc,
   collection,
-  deleteDoc,
-  doc,
-  onSnapshot,
+  onSnapshot
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
 import { db } from "./firebase.js";
 
@@ -18,8 +15,6 @@ onSnapshot(collectionRef, (data) => {
   });
 
   document.querySelector("#product").innerHTML = "";
-
-  console.log(productList);
 
   productList.forEach((prod) => {
     console.log(prod);
@@ -52,37 +47,14 @@ onSnapshot(collectionRef, (data) => {
       `;
   });
 
-  const detailBtns = document.querySelectorAll('.detail-btn');
+  const detailBtns = document.querySelectorAll(".detail-btn");
 
+  // Thêm sự kiện click vào nút detail
   detailBtns.forEach((btn, index) => {
     btn.onclick = () => {
       const product = productList[index];
-      console.log(product);
-      localStorage.setItem('productDetail', product.id)
+      localStorage.setItem("productDetail", product.id);
       window.location.href = "./detail.html";
-    }}
-  )
-
-
-    //   Xóa dữ liệu database
-    document.querySelectorAll(".delete").forEach((btn, index) => {
-      btn.onclick = () => {
-        const documentRef = doc(db, "ToDo", productList[index].id);
-
-        deleteDoc(documentRef).then(() => alert("Xóa thành công !"));
-      };
-    });
+    };
   });
-
-  // Thêm dữ liệu vào Database
-  document.querySelector("#addButton").onclick = () => {
-    const name = document.querySelector("#addTask input").value.trim();
-    if (name.length === 0) {
-      alert("Mời nhập tên task");
-    } else {
-      addDoc(collectionRef, {
-        name: name,
-        isComplete: false,
-      });
-    }
-  };
+});
