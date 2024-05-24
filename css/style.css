@@ -9,7 +9,41 @@ body {
     background-color: #302f2d;
     width: 100vw;
     height: 107px;
+    display: flex;
 }
+
+.logo {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    ;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.nav-links>a:hover {
+    color: #FF4655;
+}
+
+
 
 .big {
     width: 100vw;
@@ -69,12 +103,18 @@ body {
     left: 100%;
 }
 
+
+
+
 .select {
     border: 1px #003034 solid !important;
     color: white !important;
     background-color: #003034 !important;
-    width: 300px !important;
+    width: 21% !important;
+    margin-left: 55px;
 }
+
+
 
 .seeA a {
     font: 30px 'Anton-Regular';
@@ -85,6 +125,8 @@ body {
     margin-top: 12px;
 }
 
+
+
 .vid iframe {
     width: 100%;
     height: 100%;
@@ -94,6 +136,7 @@ body {
     font-weight: bold;
     color: white;
     background-color: #333333;
+    border: white solid 0.1px;
 }
 
 .holder a {
@@ -104,25 +147,84 @@ body {
     text-transform: uppercase;
 }
 
-.product-img img{
-    width: 100%;
+.bg-overlay{
+    top: 0;
+    opacity: 0;
+    position: absolute;
+}
+.product-img{
+    position: relative;
 }
 
-.price{
+.product-img:hover .bg-overlay{
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.product-img img {
+    width: 100%;
+    height: 179px;
+}
+
+
+
+.price {
     font: 20px 'Anton-Regular';
     color: #FF4655;
     margin-bottom: 5px;
     float: right;
 }
-.status{
+
+.status {
     font: 14px 'Roboto-Regular';
     color: #01A647;
     margin-top: 5px;
 }
-.product-btns button{
+
+.product-btns button {
     color: white;
     background-color: #FF4655;
     font-size: 14px;
     text-transform: uppercase;
     border: none;
+}
+
+.cred {
+    width: 100%;
+    height: 857px;
+    display: block;
+    background-image: url(https://shopgamevalorant.com/assets/backend/bgf.png);
+    background-size: 100% 877px;
+    color: white;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.cred h4{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.first p {
+    font-size: 15px;
+    width: 75%;
+
+}
+.second p{
+    font-size: 18px;
+}
+
+.first{
+    width: 40%;
+    height: 100%;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: -0.5px
+}
+.second{
+    width: 60%;
+    height: 80%;
+    padding-left: 170px;
+    line-height: 28px;
+    letter-spacing: -0.5px
 }
