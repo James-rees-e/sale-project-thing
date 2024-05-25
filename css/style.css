@@ -178,3 +178,12 @@ body {
   line-height: 28px;
   letter-spacing: -0.5px;
 }
+
+.buy-btn button {
+  background: #ff4655;
+  color: #fff;
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
